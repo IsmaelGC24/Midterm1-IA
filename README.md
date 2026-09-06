@@ -25,5 +25,5 @@ El notebook `04_qlearning_pacman_examen.ipynb` implementa:
 
 ## Nota sobre las animaciones
 
-Las celdas que reproducen un episodio (frames_to_video) generan un reproductor interactivo (play/pausa/slider) mediante animation.to_jshtml(). GitHub no ejecuta JavaScript al mostrar notebooks, así que esas animaciones no se ven al abrir el .ipynb desde la web de GitHub, puede aparecer en blanco o solo el primer frame.
+Las celdas que reproducen un episodio (`frames_to_video`) generan un reproductor interactivo (play/pausa/slider) mediante `animation.to_jshtml()`. GitHub no ejecuta JavaScript al mostrar notebooks, así que esas animaciones no se ven al abrir el `.ipynb` desde la web de GitHub, puede aparecer en blanco o solo el primer frame.
 Para verlas funcionando hay que abrir y ejecutar el archivo localmente (Jupyter o VS Code). Las gráficas estáticas (curva de aprendizaje, etc.) sí se ven normalmente.
